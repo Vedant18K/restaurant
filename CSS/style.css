@@ -1,0 +1,162 @@
+.navbar{
+        display:flex;
+        justify-content: space-between;
+        align-items: center
+        
+        }
+.subheader{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+        }
+li{
+    display: inline;
+    padding: 20px;
+}
+ul{
+    text-align: center;
+}
+a{
+    text-decoration: none;
+}
+#carouselExample{
+    filter: blur(7px);
+    -webkit-filter: blur(7px);
+
+}
+/* .carousel-width{
+    top: 105px;
+    height: 1012.8px;
+    width: 1519.2px;
+    max-width: none;
+    z-index: -1;
+    position: absolute;
+    left: 0px;
+    backface-visibility: hidden;
+} */
+img{
+    /* vertical-align:middle; */
+    border-style: none;
+
+}          
+.overtext h2 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 64px;
+    display: inline-block;
+    font-weight: bold;
+   
+}
+.overtext h6 {
+    display: flex;
+    justify-content: center;
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: bold;
+    
+    
+}
+.reservation button{
+    margin-left: 40%;
+    margin-top: 20px;
+    background-color: transparent;
+    padding:12px 30px ;
+    border-color: #fd7e14;
+    
+    
+}
+ 
+#reservation a{
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.box{
+    border-radius: 2px;
+    border-color: #fd7e14;
+}
+.speicalmenu{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    gap: 10px;
+}
+.speicalmenu li{
+    border: 1px solid black;
+    border-radius: 6px;
+    /* max-width: max-content; */
+    /* max-height: 30px; */
+    align-items: center;
+    padding: 12px 40px;
+    text-transform: uppercase;
+    font-weight:600;
+
+}
+.speicalmenu li button{
+   border: none;
+   background-color: #ffffff;
+}
+.zoomimages img:hover{
+    transform: scale(1.2);
+}
+
+.white-heading{
+    color: #ffffff;
+}
+
+.footer_link{
+    background-color: #d0a772;
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: #ffffff;
+    font-size: 20px;
+}
+
+.bg-f{
+    background-image: image-set("../images/footer-bg.jpg");
+    background-attachment: scroll;
+    background-clip: initial;
+    background-color: rgb(201 21 21 / 0%);
+    background-origin: initial;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    
+}
+
+
+    body, html {
+      height: 100%;
+    }
+    
+    .parallax {
+      /* The image used */
+      background-image: url('images/all-bg.jpg');
+    
+      /* Full height */
+      height: 50%; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallax1 {
+      /* The image used */
+      background-image: url('images/qt-bg.jpg');
+    
+      /* Full height */
+      height: 50%; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+   
